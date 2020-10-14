@@ -1,27 +1,32 @@
-# Meufront
+# Apendendo Angula - Cod3r
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+Repositório feito no curso de Angular - Essentials, ministrado pelo [Cod3r](https://www.cod3r.com.br).
 
-## Development server
+## Preparando
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Bora começar a correria?
 
-## Code scaffolding
+### Instalando o Angluar Cli Globalmente
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para utilizar o CLI do Angular, é necessário fazer a instalação dele globalmente:  
+No terminal: `$ npm i g @angular/cli` (caso o usuário esteja no grupo de sudoers basta rodar o comando com o `sudo` no começo).
 
-## Build
+## Configurando o Backend
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+É utilizado um servidor simples para trabalhar nesse projeto, que utilizar um JSON como base de dados.  
+Baixe o backend deste repositorio [clique aqui](https://github.com/cod3rcursos/angular-crud).  
+Na pasta faça `# npm install`
+O `json-server` irá servir o arquivo 'db.json' usando a porta `3001`.  
+As configurações do serviço estão no arquivo `package.json`, na propriedade `start`. Caso queira mudar a porta (está setada para a 3001), ou o arquivo json, basta mudar as configurações nesse arquivo.
 
-## Running unit tests
+Para rodar o servidor: `# npm start`;
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Configurando o Frontend
 
-## Running end-to-end tests
+Faça o clone desse projeto, dentro da pasta, pelo terminal rode:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- `# npm install` para instalar todas as dependências.  
+- `# npm start` para rodar o front.
+- `# code .` para abrir o VSCode e começar a codar.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+> Have Fun!
